@@ -2,6 +2,17 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturn.Api", "Saturn.Api\Saturn.Api.csproj", "{CC59E988-B28A-478B-8C09-AE21C69CCC94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturn.Domain", "Saturn.Domain\Saturn.Domain.csproj", "{31550ADB-2113-4050-B783-1EFB79CD003F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturn.Application", "Saturn.Application\Saturn.Application.csproj", "{1850B2A0-993B-48BD-9A88-9C83D29EF2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturn.Infrastructure", "Saturn.Infrastructure\Saturn.Infrastructure.csproj", "{6AE9F989-FAA8-415B-AD23-73E3EE302EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{34CD7AF4-177D-40AB-AC6A-BC65737BF97C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +23,17 @@ Global
 		{CC59E988-B28A-478B-8C09-AE21C69CCC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC59E988-B28A-478B-8C09-AE21C69CCC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC59E988-B28A-478B-8C09-AE21C69CCC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31550ADB-2113-4050-B783-1EFB79CD003F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31550ADB-2113-4050-B783-1EFB79CD003F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31550ADB-2113-4050-B783-1EFB79CD003F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31550ADB-2113-4050-B783-1EFB79CD003F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1850B2A0-993B-48BD-9A88-9C83D29EF2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1850B2A0-993B-48BD-9A88-9C83D29EF2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1850B2A0-993B-48BD-9A88-9C83D29EF2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1850B2A0-993B-48BD-9A88-9C83D29EF2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE9F989-FAA8-415B-AD23-73E3EE302EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE9F989-FAA8-415B-AD23-73E3EE302EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE9F989-FAA8-415B-AD23-73E3EE302EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE9F989-FAA8-415B-AD23-73E3EE302EF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
-﻿using Saturn.Telegram.Db.Entities;
+﻿using Saturn.Infrastructure.Database.Entities;
 
-namespace Saturn.Telegram.Db.Repositories.Abstractions;
+namespace Saturn.Infrastructure.Database.Repositories.Abstractions;
 
 public interface IChatCachedRepository
 {

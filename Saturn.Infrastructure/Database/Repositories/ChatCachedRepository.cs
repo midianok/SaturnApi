@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using Saturn.Telegram.Db.Entities;
-using Saturn.Telegram.Db.Repositories.Abstractions;
+using Saturn.Infrastructure.Database.Entities;
+using Saturn.Infrastructure.Database.Repositories.Abstractions;
 
-namespace Saturn.Telegram.Db.Repositories;
+namespace Saturn.Infrastructure.Database.Repositories;
 
 public class ChatCachedRepository : IChatCachedRepository
 {

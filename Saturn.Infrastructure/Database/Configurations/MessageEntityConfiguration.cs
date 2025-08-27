@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Saturn.Telegram.Db.Entities;
+using Saturn.Infrastructure.Database.Entities;
 
-namespace Saturn.Telegram.Db.Configurations;
+namespace Saturn.Infrastructure.Database.Configurations;
 
 public class MessageEntityConfiguration : IEntityTypeConfiguration<MessageEntity>
 {

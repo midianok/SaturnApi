@@ -1,4 +1,4 @@
-﻿namespace Saturn.Telegram.Db.Entities;
+﻿namespace Saturn.Infrastructure.Database.Entities;
 
 public class AiAgentEntity
 {

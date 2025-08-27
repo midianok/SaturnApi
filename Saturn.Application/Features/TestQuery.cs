@@ -1,6 +1,14 @@
-﻿namespace Saturn.Application.Features;
+﻿using MediatR;
+using Saturn.Application.Dtos;
 
-public class TestQuery
+namespace Saturn.Application.Features;
+
+public class TestQuery : IRequest<int>
 {
-    
+    public TestQuery(TestDto testDto)
+    {
+        TestDto = testDto;
+    }
+
+    public TestDto TestDto { get; set; }
 }

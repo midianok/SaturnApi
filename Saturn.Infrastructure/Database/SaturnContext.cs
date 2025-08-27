@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Saturn.Telegram.Db.Configurations;
-using Saturn.Telegram.Db.Entities;
+using Saturn.Infrastructure.Database.Configurations;
+using Saturn.Infrastructure.Database.Entities;
 
-namespace Saturn.Telegram.Db;
+namespace Saturn.Infrastructure.Database;
 
 public sealed class SaturnContext : DbContext
 {
